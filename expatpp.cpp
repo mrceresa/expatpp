@@ -26,6 +26,9 @@
 	#define BUFSIZ 4096
 #endif
 
+#include <stdio.h>
+#include <string.h>
+
 expatpp::expatpp(bool createParser) :
 	mParser(0),  // in case of exception below
 	mHaveParsed(false)
